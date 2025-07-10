@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Hobby </title>
+    <link rel="icon" type="image" href="image icon/hobby icon.jpeg">
+    <style>
+      *{box-sizing: border-box;
+}
+body{background-color: antiquewhite;
+     font-size: medium;
+     font-family: 'Times New Roman', Times, serif;
+    }
+header{background-color: rgb(161, 124, 76);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: large;
+       text-align: center;
+       padding: 30px;
+     }   
+nav{ float: left;
+      width: auto;
+      height: auto;
+ }
+nav ul{ list-style-type: disc;
+         padding: 10px;
+ }     
+ table{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       border-collapse: collapse;
+       width: fit-content;
+}
+td,th{ border: 1px solid;
+ text-align: center;
+  padding: 5px;
+}
+h2{font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{color: black;
+  padding: 5px;}
+.note{ background-color: cadetblue;
+}  
+.display{ background-color: azure;
+              padding: 20px;
+              border-color: black;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: medium;
+}
+div{width: 500px;
+  margin: auto;
+  padding: 20px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{background-color: rgb(161, 111, 49);}
+header.sticky{
+  position: sticky;
+  top: 0;
+  padding: auto;
+  border: outset;
+}
+cite{
+  background-color: rgb(245, 200, 145);
+  text-decoration: overline;
+  float:right;
+  border: dotted;
+}
+    </style>
+</head>
+
+<body>
+    
+    <header class="sticky">
+      <h1 id="id1">My Hobby<button onclick="idf()">Change text</button></h1>
+      <h2> <p>The hobby <var>Book Reading</var> is beneficial.</p></h2>
+    </header>
+    
+    <section><nav><ul><li><a href="#">My hobby</a></li></ul></nav></section>
+
+    <p>Hobby is a work that we do in our spare time and I like to read books in my spare time.Reading books is a rewarding hobby that can be enjoyed by people of all ages. </p>
+
+    <h2><p><strong>Why i like it?</strong></p></h2>
+    <pre>It provides me a sense of relaxation.</pre> 
+
+   <h2><p><strong>Benefits of the hobby</strong></p></h2> 
+    <pre><ul><li> Helps in time management</li>
+      <li>Helps to explore world </li></ul></pre>
+
+    <h2><p><strong>How I got started?</strong></p></h2>
+    <pre>I got started because I was free in my spare time. </pre> 
+
+    <p><cite>Books are like teachers and friends.</cite></p>
+
+    <br>
+
+    <img src="https://img.freepik.com/premium-vector/vector-set-cartoon-children-reading-books-multiracial-kids-different-poses-with-book-phrase-reading-is-always-good-idea_317038-1631.jpg?semt=ais_items_boosted&w=740" alt="My Hobby" width="250" height="250">
+    
+    <br>
+
+    <a href="https://www.hobbylobby.com.pk/"><button>CLICK NOW</button><br>Hobby</a>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr><th>My Hobby</th><th>Other Hobbies</th></tr>
+        </thead>
+        <tfoot>
+            <tr><td>Reading changes my life all the time. It's a way for me to see the world differently and to communicate differently </td><td> There are many others hobbies that improved mental health, increased happiness, and even enhanced physical well-being</td></tr>
+        </tfoot>
+    </table>
+
+    <script>
+        function idf(){
+              document.getElementById("id1").innerHTML="Is book reading..."
+      
+        }
+        function notes(){
+      
+              var a=document.getElementsByClassName("display");
+              for(var i=0;i<a.length;i++)
+        {
+          a[i].style.display="none";
+        }
+        }
+    </script> 
+    <br>
+    <div class="display">
+     <h3>Here is a benefit of reading</h3>   
+      <p>Reading also provides a sense of relaxation and escape. It allows you to disconnect from the stresses of daily life and immerse yourself in a captivating story or non-fiction work.</p></div>
+    <button on click="notes()">hide elements...</button>
+
+    <blockquote>
+      <main>
+        <aside>Happy is the man who can make a living by his hobby.</aside>
+    </main>
+  </blockquote>
+
+    <p>Jeff Kinney <samp>said: &lt; I only work on my books at night and at weekends.It is really just like a hobby &gt;</samp></p>
+
+    <footer>
+        <p>@2025 MY HOBBY Website</p>
+   </footer>
+   
+   <article>
+    Reading books is my hobby because it entertains me and helps me learn. My hobby is reading books, and I enjoy it very much.
+   </article>
+
+   <br>
+
+   <footer><q>No hobby comes to you until you find it by yourself,gold does not come to you until you dig out.</q></footer>
+
+    
+</body>
+</html>
